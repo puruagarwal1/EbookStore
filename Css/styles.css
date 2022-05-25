@@ -16,21 +16,73 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial;
 }
+
+.ButtonSearch{
+width: 250px;
+height: 30px;
+border-radius: 10px;
+border: none;
+}
+.bi-search{
+    font-size: 20px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 16%;
+}
+
 p{
     color: white;
     font-size: 20px;
-    font-weight: 400;
-    font-family: sans-serif;
+    font-weight: 600;
 }
 a{
     color: white;
     font-size: 20px;
-    font-weight: 400;
-    font-family: sans-serif;
+    font-weight: 600;
 }
 .LoginPerson{
     font-size: 30px;
     margin: 5px;
     color: white;
+}
+.SubContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Banner{
+    width: 100%;
+    margin-top: 30px;
+}
+img{
+    width: 100%;
+}
+.ContainerCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.Cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    border: 1px solid red;
+    background-color: white;
 }
